@@ -11,6 +11,7 @@
 		E376B0CD21BE2D3F00BB8515 /* DTFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376B0CC21BE2D3F00BB8515 /* DTFrameworkTests.swift */; };
 		E376B0CF21BE2D3F00BB8515 /* DTFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E376B0C121BE2D3F00BB8515 /* DTFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E376B0D921BE2D8800BB8515 /* DTFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376B0D821BE2D8800BB8515 /* DTFramework.swift */; };
+		E376B18521BE500B00BB8515 /* DTFramework.zip in Resources */ = {isa = PBXBuildFile; fileRef = E376B18421BE500B00BB8515 /* DTFramework.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		E376B0CC21BE2D3F00BB8515 /* DTFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTFrameworkTests.swift; sourceTree = "<group>"; };
 		E376B0CE21BE2D3F00BB8515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E376B0D821BE2D8800BB8515 /* DTFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTFramework.swift; sourceTree = "<group>"; };
+		E376B18421BE500B00BB8515 /* DTFramework.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = DTFramework.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		E376B0B421BE2D3F00BB8515 = {
 			isa = PBXGroup;
 			children = (
+				E376B18421BE500B00BB8515 /* DTFramework.zip */,
 				E376B0C021BE2D3F00BB8515 /* DTFramework */,
 				E376B0CB21BE2D3F00BB8515 /* DTFrameworkTests */,
 				E376B0BF21BE2D3F00BB8515 /* Products */,
@@ -181,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E376B18521BE500B00BB8515 /* DTFramework.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +365,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nestbedding.napapp.DTFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
